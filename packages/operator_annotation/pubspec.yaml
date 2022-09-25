@@ -2,9 +2,9 @@ name: operator_annotation
 description: >
   Annotations for the operator code-generator.
   This package does nothing without operator too.
-version: 2.1.0
-repository: https://github.com/rrousselGit/operator
-issue_tracker: https://github.com/rrousselGit/operator/issues
+version: 0.0.1
+repository: https://github.com/huang12zheng/operator
+issue_tracker: https://github.com/huang12zheng/operator/issues
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
