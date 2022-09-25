@@ -1,0 +1,3 @@
+dependency_overrides:
+  operator_annotation:
+    path: ../operator_annotation

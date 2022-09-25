@@ -1,0 +1,21 @@
+targets:
+  $default:
+    builders:
+      operator:
+        enabled: true
+        # generate_for:
+        #   exclude:
+        #     - test
+        #     - example
+        #   include:
+        #     - test/integration/*
+        #     - test/integration/**/*
+
+builders:
+  operator:
+    import: "package:operator/builder.dart"
+    builder_factories: ["operator"]
+    build_extensions: { ".dart": [".operator.dart"] }
+    auto_apply: dependents
+    build_to: source
+    # runs_before: ["json_serializable|json_serializable"]
