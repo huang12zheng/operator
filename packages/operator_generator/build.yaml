@@ -1,7 +1,7 @@
 targets:
   $default:
     builders:
-      operator:
+      operator_generator:
         enabled: true
         # generate_for:
         #   exclude:
@@ -12,8 +12,8 @@ targets:
         #     - test/integration/**/*
 
 builders:
-  operator:
-    import: "package:operator/builder.dart"
+  operator_generator:
+    import: "package:operator_generator/builder.dart"
     builder_factories: ["operator"]
     build_extensions: { ".dart": [".operator.dart"] }
     auto_apply: dependents

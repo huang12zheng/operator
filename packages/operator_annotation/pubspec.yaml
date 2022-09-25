@@ -2,8 +2,8 @@ name: operator_annotation
 description: >
   Annotations for the operator code-generator.
   This package does nothing without operator too.
-version: 0.0.1
-repository: https://github.com/huang12zheng/operator
+version: 0.0.2
+repository: https://github.com/huang12zheng/operator/tree/main/packages/operator_generator
 issue_tracker: https://github.com/huang12zheng/operator/issues
 
 environment:
